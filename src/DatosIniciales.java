@@ -13,7 +13,15 @@ public class DatosIniciales {
             {"Filosofia", "Humanidades"},
             {"Diseño Grafico", "Artes"},
             {"Publicidad", "Artes"},
-            {"Economia", "Ciencias Economicas y Sociales"}
+            {"Economia", "Ciencias Economicas y Sociales"},
+            {"Medicina", "Ciencias de la salud"},
+            {"Derecho", "Ciencias Juridicas y Politicas"},
+            {"Contabilidad", "Ciencias Economicas y Sociales"},
+            {"Informatica", "Ciencias"},
+            
+            
+            
+            
         };
 
         String sqlEscuela = "INSERT OR IGNORE INTO escuelas(nombre_escuela) VALUES(?)";
