@@ -9,7 +9,7 @@ public class Principal extends JFrame {
     private JComboBox<String> comboEscuelas;
 
     public Principal() {
-        setTitle("Catálogo De Carreras UASD");
+        setTitle("Catálogo de Carreras UASD");
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
